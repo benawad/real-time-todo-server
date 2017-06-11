@@ -1,0 +1,13 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "postgres": "postgres://postgres:@localhost:5432/realTimeTodoServer",
+  "public": "../public/",
+  "auth": {
+    "idField": "id",
+    "token": {
+      "secret": "iAL9fHOPSjLKwcqWzjQ+JvoogkW/VrzhWvtyYpDsuMghYrSjwLgOQ9DOdbZbgmYt4HkNBu7nmdEm5WEHoL5BpA=="
+    },
+    "local": {}
+  }
+}
